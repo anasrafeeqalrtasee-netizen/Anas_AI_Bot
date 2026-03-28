@@ -19,7 +19,7 @@ GEMINI_API_KEY = "AIzaSyBKlf85SnenZhKoAcmsFMvKyO1LHceVv04" # مفتاحك الج
 USER_ID = 7991342562
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-pro')
 
 async def handle_chat(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # التأكد أن أنس هو فقط من يتحكم بالبوت
